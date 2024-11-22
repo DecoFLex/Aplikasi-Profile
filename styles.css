@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 45%;
+    margin: 66px auto;
+    background-color: #fff;
+    padding: 30px 70px;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #666;
+    color: #ffffff;
+}
+
+.konten {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    margin: 10px 20px 25px 20px;
+}
+
+h3 {
+    color: #000000;
+    margin-top: 20px;
+}
+
+h4 {
+    color: #000000;
+    padding-left: 10px;
+}
+
+h5 {
+    color: #000000;
+    padding-left: 20px;
+    margin: 0;
+    font-size: 16px;
+}
+
+p {
+    padding-left: 20px;
+    color: #000000;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    color: #000000;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.line {
+    border-bottom:   2px solid #666;
+    margin: 20px 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.contact li {
+    display: inline-block;
+}
+
+.contact img {
+    width: 60px;
+    height: 60px;
+}
